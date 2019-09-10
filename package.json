@@ -1,0 +1,25 @@
+{
+  "name": "user_manager",
+  "version": "1.0.0",
+  "description": "This program will be a User Manager as name implies.  The program will allow for the following:\r  - create a new User ( username, password and email address required), making sure there are no duplicate Users\r  - allow User to update email address(username and password required for validation)\r  - allow User to delete account (username and password required for validation)\r  - persist Users in a users.json file\r  - list al lusers if usernmae =\"Admin\" and password \"admin\"\r - log all activity to a log.txt file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CateSpeakman/User_Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CateSpeakman/User_Manager/issues"
+  },
+  "homepage": "https://github.com/CateSpeakman/User_Manager#readme",
+  "dependencies": {
+    "logger": "0.0.1",
+    "yargs": "^14.0.0"
+  }
+}
